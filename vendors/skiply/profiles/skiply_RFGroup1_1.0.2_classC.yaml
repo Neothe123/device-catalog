@@ -76,10 +76,10 @@ bootSettings:
 # Which MAC commands are supported by your device and which are not? Leave it as the template if your device supports all the MAC commands specified for your regional
 # profile. Put 'true' only if a command is supported.
 supportedMACCommands:
-    linkADRReqAns: false
-    devStatusReqAns: false
+    linkADRReqAns: true
+    devStatusReqAns: true
     joinRequestAccept: true
-    dutyCycleReqAns: false
+    dutyCycleReqAns: true
     linkCheckReqAns: true
     rxParamSetupReqAns: true
     rxTimingSetupReqAns: true
